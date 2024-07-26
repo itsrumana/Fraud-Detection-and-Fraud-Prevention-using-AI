@@ -1,6 +1,6 @@
 # Fraud-Detection-and-Fraud-Prevention-using-AI
 
-Fraud detection is a critical aspect of financial systems to prevent losses and ensure the integrity of transactions. This repository mainly focuses on detecting fraud using peer-to-peer (P2P) transaction data. The project utilizes the Neo4j graph database to analyze relationships and detect potentially fraudulent activities. <br>
+Fraud detection is a critical aspect of financial systems to prevent losses and ensure the integrity of transactions. This repository mainly focuses on detecting fraud using peer-to-peer (P2P) transaction data. The project utilizes the Neo4j Graph Data Science to analyze relationships and detect potentially fraudulent activities. <br>
 Using Neo4j offers several advantages over traditional methods: <br>
 - **Efficient Relationship Handling:** Neo4j excels at managing complex relationships, making it ideal for fraud detection where connections between entities are crucial.
 - **Graph Algorithms:** Neo4j’s graph algorithms provide powerful tools for identifying patterns and anomalies in the data.
@@ -29,13 +29,13 @@ Investigating high-probability fraud predictions that were not previously labele
 ## Neo4j Graph Database V/S Neo4j Graph Data Science
 
 ### Using Neo4j Graph Database:
-- **Neo4j Desktop:** Install and use locally for free.
+- **Neo4j Desktop:** Install and use locally for free (limited resources).
 - **Neo4j Aura Free Tier:** Cloud service with limited resources for small projects.
 - **Neo4j Sandbox:** Free cloud-hosted environment for learning and experimentation (limits nodes and relationships).
 
 ### Using Neo4j Graph Data Science (GDS):
-- **Neo4j AuraDS:** Managed cloud service for GDS, charged based on hourly usage and dataset size.
+- **Neo4j AuraDS:** Managed cloud service for GDS, charged based on hourly usage and dataset size. Can handle desired nodes and relationships and is suitable for large and advanced projects.
   
-Hence I've used Neo4j AuraDS for training models in Jupyter Notebook, but since it’s not free, I am using Neo4j Desktop for visualization and real-time analysis of the dataset.
+
 
 
